@@ -13,6 +13,9 @@ public class Greeter {
   }
 
   //TODO: Add javadoc comment
+  /**
+   * This is a greet with a message.
+   */
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
